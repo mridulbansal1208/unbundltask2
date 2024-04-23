@@ -1,0 +1,94 @@
+/* CSS */
+body{
+    background-color: #F5CCA0;
+    text-align: center;
+}
+#chocolates-container {
+    margin: 50px;
+    height: 155px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  #chocolates-container img{
+    margin-top: -50px;
+    height: 160px;
+    background-color: #E48F45;
+    border-radius: 20px;
+    transition: 0.5s;
+  }
+  #chocolates-container img:hover{
+    height: 155px;
+    border: black solid 2px;
+    border-radius: 30px;
+    opacity: 70%;
+  }
+  #custom-pack-info {
+
+    margin-top: 40px;
+  }
+  .pese{
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+ #custom-pack-info,#custom-pack-info2{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ #custom-pack-info{
+    padding-top: 20px;
+ }
+ #custom-pack-info2{
+    padding-top: 0px;
+ }
+  #msg , #msgouter, #countmsg, #total-price{
+       width: 550px;
+       background-color: #6B240C;
+       color: white;
+       height: 40px;
+       font-size: xx-large;
+       font-weight: bolder;
+  }
+  #msg , #msgouter{
+       border: #994D1C solid 5px;
+       border-radius: 20px;
+  }
+  #msg{
+      width: 550px;
+  }
+  #reset{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #E48F45;
+    border: solid white 4px;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-right: 300px;
+    transition: 0.5s;
+  }
+  #reset:hover{
+    height: 95px;
+    width: 95px;
+    font-size: larger;
+    color: white;
+    border: solid black 4px;background-color: #994D1C;
+  }
+  #reset:active{
+    border: black solid 4px;
+    color: white;
+  }
+  table{
+    width: 100%;
+  }
+  .pesecount{
+    font-size: x-large;
+    font-weight: bold;
+  }
+  
